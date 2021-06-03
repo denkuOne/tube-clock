@@ -1,5 +1,5 @@
 # tube-clock
-##A florescent display clock using NEC LD8035E tubes
+## A florescent display clock using NEC LD8035E tubes
 Designed using no ICs other than a PSOC5LP microcontroller and transistor arrays for simplicity and size.
 ![20210603_234007](https://user-images.githubusercontent.com/85288181/120663858-6199c180-c4c5-11eb-8b98-5e14e62ac25e.jpg)
 
