@@ -1,4 +1,5 @@
 # tube-clock
+下に日本語の説明あります。
 ## A florescent display clock using NEC LD8035E tubes
 Designed using no ICs other than a PSOC5LP microcontroller and transistor arrays for simplicity and size.
 ![20210603_234007](https://user-images.githubusercontent.com/85288181/120663858-6199c180-c4c5-11eb-8b98-5e14e62ac25e.jpg)
@@ -14,10 +15,10 @@ The tubes and drivers are fed from the step-up voltage converter, and the heater
 
 Code for this project can be downloaded here.
 
-この時計はNECのLD8035Eっていう蛍光表示管を使用、PSOC5LPっていうマイコンのおかげで使用の部品も少ない。
-PSOC5LPはマイコンだけでなく、内臓にCPLDのような機能とプログラマブルアナログ回路も入ってる。
-このプロジェクトのセブンセッグのドライバーと、RTCと、スイッチのdebouncerも全部ハードに設計したのでプロセッサーの負担は軽い。
-蛍光表示管を光らせるため、１２Ｖ以上は必要ですが、USBの５Ｖだけ使いたかったので、ステップアップコンバーター設計した。
+この時計はNECのLD8035Eっていう蛍光表示管を使用、PSOC5LPというマイコンのおかげで使用の部品も少ないです。
+PSOC5LPはマイコンだけでなく、内臓にCPLDのような機能とプログラマブルアナログ回路も入っています。
+このプロジェクトのセブンセッグのドライバーと、RTCと、スイッチのdebouncerも全部ハードに設計したのでプロセッサーの負担は軽いです。
+蛍光表示管を光らせるため、１２Ｖ以上は必要ですが、USBの５Ｖだけ使いたかったので、ステップアップコンバーター設計しました。
 シンプルな設計ですが、蛍光表示管のため十分です。
-コンバーターの制御はパルス幅変調で、２０usごとにマイコンが出力を計って、パルス幅変調のデューティ比を変わる。
-蛍光表示管のグリッドとセグメントはTD62783ソースドライバに繋ぎ、トランジスタのゲートはマイコンに繋いでる。
+コンバーターの制御はパルス幅変調で、２０usごとにマイコンが出力を計って、パルス幅変調のデューティ比を変わります。
+蛍光表示管のグリッドとセグメントはTD62783ソースドライバに繋ぎ、トランジスタのゲートはマイコンに繋いでいます。
